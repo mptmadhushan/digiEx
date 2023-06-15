@@ -1,7 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit'
-import todoSlice from './todosSlice';
+import {configureStore} from '@reduxjs/toolkit';
+import colorSlice from './colorSlice';
+
 export const store = configureStore({
   reducer: {
-    todos: todoSlice
+    color: colorSlice,
   },
-})
+});
